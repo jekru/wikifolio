@@ -19,12 +19,16 @@
     "runner": "yarn"
   },
   "dependencies": {
-    "jsdom": "^16.2.2",
-    "request-promise-native": "^1.0.8",
     "@types/jsdom": "^16.2.3",
-    "@types/request-promise-native": "^1.0.17"
+    "@types/node": "^16.7.5",
+    "@types/request-promise-native": "^1.0.17",
+    "jsdom": "^16.2.2",
+    "request": "^2.88.2",
+    "request-promise-core": "^1.1.4",
+    "request-promise-native": "^1.0.8",
+    "ts-node": "^10.2.1"
   },
   "devDependencies": {
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.10"
   }
 }
